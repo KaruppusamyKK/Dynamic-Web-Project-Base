@@ -53,6 +53,16 @@ public class SampleController {
 	        	   " ur name : "+name;
 	        
 	    }
+
+
+	/*@PostMapping("/header")
+	public String usingHeader(@RequestHeader("id") int id,@RequestHeader("name") String name) {
+		System.out.println("Header id: " + id);
+		System.out.println("Header name: " + name);
+		return " ur id : "+id+
+				" ur name : "+name;
+
+	}*/
 	}
 	
 	
